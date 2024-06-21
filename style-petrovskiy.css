@@ -117,6 +117,10 @@ button {
   padding: 0 30px;
 }
 
+#petr-chinese.main-section {
+  padding: 0;
+}
+
 #petrovskiy.main,
 #petr-chinese .main {
   padding: 100px 30px;
@@ -732,7 +736,7 @@ button {
   }
 }
 
-@media (width <= 1199px) {
+@media (width < 1280px) {
   #petrovskiy.main,
   #petr-chinese .main {
     padding: 60px 10px;
@@ -740,10 +744,6 @@ button {
 
   #petr-chinese .main__sales_chinese {
     top: 30px;
-  }
-
-  #petr-chinese.main-section {
-    padding: 0;
   }
 
   #petrovskiy .main__list {
@@ -981,7 +981,7 @@ button {
   }
 }
 
-@media (width <= 767px) {
+@media (width < 768px) {
   #petrovskiy.main,
   #petr-chinese .main {
     padding: 40px 10px;
