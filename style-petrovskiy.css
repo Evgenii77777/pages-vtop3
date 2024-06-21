@@ -249,6 +249,7 @@ button {
   font-size: 24px;
   line-height: 28px;
   text-decoration: underline;
+  color: var(--main-text-color);
 }
 
 #petrovskiy .pagination > li > a:hover,
