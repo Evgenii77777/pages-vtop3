@@ -23,7 +23,21 @@
         <li class="main__item">
           <a class="main__link" href="./chinese.html">
             <div class="container__img">
-              <img class="main__img" src="./assets/img/auto.jpg" alt="auto" />
+              <picture>
+                <source
+                  media="(max-width: 400px)"
+                  srcset="./assets/img/auto-320.jpg"
+                />
+                <source
+                  media="(max-width: 1199px)"
+                  src="./assets/img/auto-768.jpg"
+                />
+                <source
+                  media="(max-width: 5000px)"
+                  src="./assets/img/auto.jpg"
+                />
+                <img class="main__img" src="./assets/img/auto.jpg" alt="auto" />
+              </picture>
             </div>
             <div class="main__container">
               <h2 class="main__name">Сайт по продаже китайских автомобилей</h2>

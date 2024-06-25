@@ -161,9 +161,13 @@ button {
 #petrovskiy .main__adress,
 #petr-chinese .main__adress {
   position: relative;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 18px;
   color: var(--main-text-color);
+}
+
+#petrovskiy .main__adress {
+  font-size: 16px;
 }
 
 #petrovskiy .main__adress::after,
@@ -178,7 +182,7 @@ button {
 }
 
 #petr-chinese .main__adress::after {
-  top: 0;
+  top: 4px;
 }
 
 #petrovskiy .main__sales,
@@ -246,10 +250,11 @@ button {
 }
 
 #petr-chinese .main-section__link {
+  position: relative;
   font-size: 24px;
   line-height: 28px;
-  text-decoration: underline;
   color: var(--main-text-color);
+  border-bottom: 1px solid var(--main-text-color);
 }
 
 #petrovskiy .pagination > li > a:hover,
@@ -261,6 +266,11 @@ button {
 #petr-chinese .main__adress:focus,
 #petr-chinese .main__adress:hover {
   text-shadow: 0 0 0.65px #333, 0 0 0.65px #333;
+}
+
+#petr-chinese .main-section__link:focus,
+#petr-chinese .main-section__link:hover {
+  border-bottom: 2px solid #333;
 }
 
 #petrovskiy .container__img {
@@ -532,6 +542,10 @@ button {
   line-height: 23px;
 }
 
+#petr-chinese .price__money {
+  font-size: 30px;
+}
+
 #petr-chinese .price__box {
   margin-top: 30px;
 }
@@ -745,6 +759,11 @@ button {
 
   #petr-chinese .main__sales_chinese {
     top: 30px;
+  }
+
+  #petr-chinese .price__money,
+  #petrovskiy .main__money {
+    font-size: 20px;
   }
 
   #petrovskiy .main__list {
@@ -977,8 +996,12 @@ button {
     margin-bottom: 10px;
   }
 
+  #petr-chinese .main__adress {
+    font-size: 20px;
+  }
+
   #petr-chinese .main__adress::after {
-    top: -1px;
+    top: 1px;
   }
 }
 
@@ -1018,7 +1041,6 @@ button {
     line-height: 19px;
   }
 
-  #petrovskiy .main__adress,
   #petr-chinese .main__adress {
     font-size: 14px;
     line-height: 16px;
@@ -1030,7 +1052,7 @@ button {
   }
 
   #petr-chinese .main__adress::after {
-    top: -2px;
+    top: -3px;
   }
 
   #petrovskiy .main__box {
@@ -1085,8 +1107,9 @@ button {
     line-height: 33px;
   }
 
+  #petrovskiy .main__money,
   #petr-chinese .price__money {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 23px;
   }
 
@@ -1245,6 +1268,9 @@ button {
 
   #petr-chinese picture {
     width: 100%;
+  }
+  #petr-chinese .wrapper__statimg {
+    height: 310px;
   }
 }
 
