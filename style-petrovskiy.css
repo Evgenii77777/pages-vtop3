@@ -516,7 +516,7 @@ button {
 
 #petr-chinese .price__container {
   width: 500px;
-  max-height: 842px;
+  height: fit-content;
   padding: 20px;
   background: var(--second-bg-color);
 }
