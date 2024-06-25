@@ -39,16 +39,16 @@ dd {
 }
 
 body {
-  position: relative;
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  color: var(--main-text-color);
-  background: var(--main-bg-color);
+  /* position: relative; */
+  /* min-height: 100vh; */
+  /* scroll-behavior: smooth;
+  text-rendering: optimizeSpeed; */
+  /* line-height: 1; */
+  /* font-family: "Raleway", sans-serif; */
+  /* font-size: 14px; */
+  /* font-weight: 400; */
+  /* color: var(--main-text-color);
+  background: var(--main-bg-color); */
 }
 
 ul,
@@ -110,11 +110,20 @@ button {
 
 #petr-chinese.main-section,
 #petrovskiy.main {
+  position: relative;
   display: flex;
   flex-direction: column;
   max-width: 1852px;
   margin: 0 auto;
   padding: 0 30px;
+  line-height: 1;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--main-text-color);
+  background: var(--main-bg-color);
 }
 
 #petr-chinese.main-section {
