@@ -38,19 +38,6 @@ dd {
   margin: 0;
 }
 
-body {
-  /* position: relative; */
-  /* min-height: 100vh; */
-  /* scroll-behavior: smooth;
-  text-rendering: optimizeSpeed; */
-  /* line-height: 1; */
-  /* font-family: "Raleway", sans-serif; */
-  /* font-size: 14px; */
-  /* font-weight: 400; */
-  /* color: var(--main-text-color);
-  background: var(--main-bg-color); */
-}
-
 ul,
 ol {
   list-style: none;
