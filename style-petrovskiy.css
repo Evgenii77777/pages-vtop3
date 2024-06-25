@@ -720,6 +720,10 @@ button {
   margin-bottom: 4px;
 }
 
+#petr-chinese .wrappe__box_desc {
+  min-width: 184px;
+}
+
 @media (width > 1628px) {
   #petr-chinese .wrapper__shaped {
     float: right;
